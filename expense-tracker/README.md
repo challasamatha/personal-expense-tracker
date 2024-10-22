@@ -56,3 +56,31 @@ Follow these steps to set up and run the project locally:
 6. **Access the API**: 
     The API will run on http://localhost:3000.
 
+**API Endpoints**
+
+1. **GET /api/summary**
+Retrieve a summary of transactions (total income, total expenses, and balance).
+![alt text](image.png)
+
+2. **GET /api/transactions/**
+Retrieve a specific transaction by ID
+![alt text](image-1.png)
+
+3. **GET /api/transactions**
+Retrieve all transactions.
+![alt text](image-2.png)
+
+4. **DELETE /api/transactions/**
+Delete a transaction by ID.
+![alt text](image-3.png)
+
+5. **PUT /api/transactions/**
+Update a transaction by ID.
+![alt text](image-4.png)
+
+6. **POST /api/transactions**
+Create a new transaction (income or expense).
+![alt text](image-5.png)
+
+
+
